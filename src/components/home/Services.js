@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 
 import FlipCard from './sub-components/FlipCard';
 import "./sub-components/services.css"
+import { servicesData } from '../../required-data/object-data/serviceData'
 
 function Services() {
   return (
