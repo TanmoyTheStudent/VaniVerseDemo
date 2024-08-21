@@ -1,0 +1,49 @@
+/* @keyframes animatedBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-div {
+    background: linear-gradient(270deg, #9da2a5, #c1e4ff, #0a3758, #7345d5);
+    /* Light gradient colors */
+/* background-size: 800% 800%;
+animation: animatedBackground 15s ease infinite;
+} */
+
+
+
+@keyframes animatedBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.animated-div {
+    width: 100%;
+    /* Full width of the container */
+    height: 200px;
+    /* Adjust the height as needed */
+    background: linear-gradient(270deg, #c1e4ff, #0a3758, #08d8d3, #152354);
+    /* Light gradient colors */
+    background-size: 800% 800%;
+    /* Size of the background for smooth movement */
+    animation: animatedBackground 15s ease infinite;
+    /* Animation for the background */
+}

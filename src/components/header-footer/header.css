@@ -1,0 +1,28 @@
+.navbar-brand {
+    color: black;
+    /* Default color for the links */
+    text-decoration: none;
+    /* Remove default underline */
+}
+
+.navbar-brand:not(.home-link):hover {
+    color: rgb(218, 19, 19);
+    /* Color when hovered or focused */
+
+    /* Add underline on hover or focus */
+}
+
+.navbar-brand:not(.home-link):focus {
+    color: rgb(99, 45, 5);
+    /* Color when hovered or focused */
+    text-decoration: underline;
+    /* Add underline on hover or focus */
+}
+
+/* Optional: To ensure the underline appears when a link is active */
+.navbar-brand:not(.home-link).active {
+    color: yellow;
+    /* Color when the link is active */
+    text-decoration: underline;
+    /* Add underline when the link is active */
+}
