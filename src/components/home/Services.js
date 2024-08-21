@@ -4,8 +4,6 @@ import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
 import { Link } from 'react-router-dom';
 
-import { servicesData } from '../../required-data/object-data/serviceData'
-
 import FlipCard from './sub-components/FlipCard';
 import "./sub-components/services.css"
 
@@ -13,49 +11,6 @@ function Services() {
   return (
     <>
    
-    {/* <div>
-      <Container maxWidth="lg" style={{backgroundColor:"red"}}>
-        <Typography variant='h4' align='center' style={{marginTop:"30px",color:"blue"}}>
-              Our Offered Services are as follows-
-        </Typography>
-        <Grid container spacing={5}  justifyContent="center" style={{marginTop:"20px"}}>
-          {
-            servicesData.map((ele,i)=>{
-              return(
-                <Grid item sm={12} md={6} lg={3} key={i} style={{ display: 'flex', justifyContent: 'center' }}>
-                  <Card sx={{ maxWidth: 345 }} align="center" style={{padding:"10px",marginBottom:"20px"}}>
-                    <CardActionArea>
-                      <CardMedia
-                        component="img"
-                        height="100%"
-                        image={ele.image}
-                        alt="services image"
-                        style={{borderRadius:"5px"}}
-                      />
-                      <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
-                          {ele.title}
-                        </Typography>
-                       
-                      </CardContent>
-                   </CardActionArea>
-                   <CardActions style={{ display: 'flex', justifyContent: 'center' }}>
-                      <Button variant="contained" size="medium"  >
-                        <Link className='text-light' to={ele.link}>
-                            Explore More..
-                         </Link>
-                       </Button>
-                   </CardActions>
-               </Card>
-  
-            </Grid>
-              )
-            })
-          }
-        </Grid>
-      </Container>
-      </div> */}
-
       <div className="animated-div" style={{
   minHeight: "500px",   // Minimum height of 500px
   height: 'auto',       // Let the height adjust based on content
