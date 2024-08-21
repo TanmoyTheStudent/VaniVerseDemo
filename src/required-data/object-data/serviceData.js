@@ -1,6 +1,6 @@
-import Service1 from "../assests/image/service1.jpg"
-import Service2 from "../assests/image/service2.jpeg"
-import Service3 from "../assests/image/service3.jpeg"
+import Service1 from "../assests/image/stt.jpeg"
+import Service2 from "../assests/image/tts.jpeg"
+import Service3 from "../assests/image/ttt.jpeg"
 
 
 export const servicesData=[
